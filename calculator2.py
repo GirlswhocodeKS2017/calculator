@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-""" User input is going to be a aritmatic expression """
+""" User input is going to be a arithmatic expression """
 
 def add(n1,n2):
     return float(n1)+float(n2)
@@ -43,7 +43,7 @@ def main():
                 num = exp[0][5:-1]
                 print sqrt(num)
             elif exp[0] == 'q': ## to quit the while loop
-                contin == False
+                contin = False
                 exit(0)
         else:
         
